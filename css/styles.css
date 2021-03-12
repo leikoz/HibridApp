@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.form-login {
+	width: 400px;	
+	padding: 30px;
+	margin: auto;
+	margin-top: 180px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: white;
+
+}
+
+.form-sign-up {
+	width: 400px;	
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: white;
+}
+
+.form-main{
+	margin-top: 50px;
+	padding: 30px;
+}
+
+.form-main h3{
+	line-height: 40px;
+	font-size: 28px;
+	font-family: 'calibri';
+}
+
+.form-main .botons{
+	width: 105px;
+	background: #1f53c5;	
+	border: solid 2px;
+	padding: 6px;	
+	color: white;
+	margin: 6px 0;
+	font-size: 16px;
+
+}
+
+.form-perfil{
+	margin-top: 50px;
+	padding: 30px;
+}
+
+.form-perfil h3{
+	line-height: 40px;
+	font-size: 28px;
+	font-family: 'calibri';
+}
+
+.form-config{
+	width: 400px;	
+	padding: 30px;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	
+}
+
+.form-config button{
+	width: 180px;
+	/*background: #1f53c5;*/
+	border: solid 1px;
+	padding: 12px;	
+	margin: 16px 0;
+	font-size: 16px;
+	margin-left: 50%;
+  	transform: translateX(-50%);
+}
+
+.controls {
+	width: 100%;
+	/*background: #24303c;*/
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #1f53c5;
+	font-family: 'calibri';
+	font-size: 18px;
+}
+
+.form-login .botons {
+	width: 180px;
+	/*background: #1f53c5;*/
+	border: solid 1px;
+	padding: 12px;	
+	margin: 16px 0;
+	font-size: 16px;
+	margin-left: 50%;
+  	transform: translateX(-50%);
+}
+.form-login a {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.form-sign-up .controls {
+	width: 100%;
+	/*background: #24303c;*/
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #1f53c5;
+	font-family: 'calibri';
+	font-size: 18px;
+}
+
+.form-sign-up .botons{
+	width: 180px;
+	/*background: #D37561;*/
+	border: solid 1px;
+	padding: 12px;	
+	margin: 16px 0;
+	font-size: 16px;
+	margin-left: 50%;
+  	transform: translateX(-50%);
+}
+
+.table{
+	margin-top:50px;
+	caption-side: bottom;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th{
+	background-color: black;
+	color: white;
+}
+
+td,th{
+	border: 1px solid black; 
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.div1 {
+	position: relative;
+	bottom: 50px;	
+}
+
+.div2 {
+	position: relative;
+	bottom: 20px;	
+}
