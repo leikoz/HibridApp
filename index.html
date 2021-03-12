@@ -8,18 +8,25 @@
 	<title>Hibrid App</title>
 </head>
 <body>
-	<script type="text/javascript">InicioApp();</script>	
-	<section id="form-login" class="form-login"> <!-- Vista Login-->
+
+    <!--------- || Login || --------->
+
+	<section id="form-login" class="form-login">  
 		<div class="div1" align="center"><img src="img/logo.png" width="350" height="350" ></div>
 		<input class="controls" type="text" name = "Usuario" id = "usuario" placeholder="Ingrese su usuario">
 		<input class="controls" type="password" name = "Contraseña" id = "contraseña" placeholder="Ingrese su contraseña">
-		<button class="botons" onclick="Validar()">Ingresar</button>
+		<button class="botons" id="btn_Ingresar" >Ingresar</button>
 		<h5></h5>
-		<button class="botons" onclick="FRegistrarse()">Registrarse</button>
+		<button class="botons" id="btn_Registro" >Registrarse</button>
 		
 	</section>
 
-	<section id="form-sign-up" class="form-sign-up"> <!-- Formulario Registro -->
+    <!--------- || Formulario Registro || --------->
+
+	<section id="form-sign-up" class="form-sign-up"> 
+        <div class="divAR">
+            <button class="btn_atras" id="btn_AtrasR"><</button>    
+        </div>        
 		<div class="div2" align="center"><img src="img/logo.png" width="250" height="250"></div>
 		<input class="controls" type="text" name = "Usuario" id = "Nombre" placeholder="Ingrese su nombre">
 		<input class="controls" type="text" name = "Usuario" id = "user" placeholder="Ingrese su usuario">
@@ -27,16 +34,26 @@
 		<input class="controls" type="password" name = "Contraseña" id = "rpassword" placeholder="Confirme su contraseña">
 		<input class="controls" type="email" name = "Email" id = "Email" placeholder="Ingrese su correo">
 		<input class="controls" type="email" name = "Email" id = "REmail" placeholder="Confirme su correo">
-		<button class="botons">Registrarse</button>
+		<button class="botons" id="btn_Registrarse">Registrarse</button>
 	</section>
 
-	<section id=form-main class="form-main"> <!-- Vista Home -->
+    <!--------- || Vista Home || --------->
+
+	<section id=form-main class="form-main"> 
+        <div class="divAH">
+            <button class="btn_atras" id="btn_AtrasH" ><</button>    
+        </div>
+        
+        <div align="right" class="divP">
+            <button id="btn_Perfil" ><img src="img/perfil.png" width="50" height="50"></button>
+        </div>
+
 		<h3>Eventos</h3>
 
-		<button class="botons">Cumpleaños</button>
-		<button class="botons">1°Comunión</button>
-		<button class="botons">Bautizo</button>
-		<button class="botons">15's</button>
+		<button class="botonH" id="btn_Cumple">Cumpleaños</button>
+		<button class="botonH" id="btn_Comunion">1°Comunión</button>
+		<button class="botonH" id="btn_Bautizo">Bautizo</button>
+		<button class="botonH" id="btn_15">15's</button>
 
 		<table >
 			<tr>
@@ -57,7 +74,14 @@
 		</table>	
 	</section>
 
-	<section id="form-perfil" class="form-perfil"> <!-- Vista Perfil Usuario -->
+    <!--------- || Vista Perfil Usuario || --------->
+
+	<section id="form-perfil" class="form-perfil">
+        <div class="divAP">
+            <button class="btn_atras" id="btn_AtrasP" ><</button>    
+        </div> 
+        
+        <div class="divC" align="right" ><button class="btn_config" id="btn_Config" ><img src="img/Config.png" width="50" height="50"></button></div>
 		<h3>Agencias Favoritas</h3>
 		<table >
 		<tr>
@@ -78,11 +102,16 @@
 	</table>		
 	</section>
 
-	<section id="form-config" class="form-config"> <!-- Vista Configuración Usuario -->
+    <!--------- || Vista Configuración Usuario || --------->
+
+	<section id="form-config" class="form-config"> 
+        <div class="divAC">
+            <button class="btn_atras" id="btn_AtrasC" ><</button>    
+        </div>        
 		<h3>Nombre User</h3>
 		<h3>Correo User</h3>
 
-		<button>Cambiar contraseña</button>
+		<button class="botons" id="btn_CambiarContra">Cambiar contraseña</button>
 	</section>
 
 </body>
