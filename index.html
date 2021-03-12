@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">	
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<script type="text/javascript" src="js/main.js"></script>
 	<title>Hibrid App</title>
 </head>
@@ -12,11 +12,14 @@
     <!--------- || Login || --------->
 
 	<section id="form-login" class="form-login">  
-		<div class="div1" align="center"><img src="img/logo.png" width="350" height="350" ></div>
-		<input class="controls" type="text" name = "Usuario" id = "usuario" placeholder="Ingrese su usuario">
-		<input class="controls" type="password" name = "Contraseña" id = "contraseña" placeholder="Ingrese su contraseña">
-		<button class="botons" id="btn_Ingresar" >Ingresar</button>
-		<h5></h5>
+		<div class="div1" >
+			<img src="img/agency.png"  width="350" height="350">
+		</div>
+		<div class= "divLog">
+			<input class="controls" type="text" name = "Usuario" id = "usuario" placeholder="Ingrese su usuario">
+			<input class="controls" type="password" name = "Contraseña" id = "contraseña" placeholder="Ingrese su contraseña">
+		</div>
+		<button class="botons" id="btn_Ingresar" >Ingresar</button>		
 		<button class="botons" id="btn_Registro" >Registrarse</button>
 		
 	</section>
@@ -27,7 +30,9 @@
         <div class="divAR">
             <button class="btn_atras" id="btn_AtrasR"><</button>    
         </div>        
-		<div class="div2" align="center"><img src="img/logo.png" width="250" height="250"></div>
+		<div class="div2" align="center">
+			<img src="img/agency.png" width="250" height="250">
+		</div>
 		<input class="controls" type="text" name = "Usuario" id = "Nombre" placeholder="Ingrese su nombre">
 		<input class="controls" type="text" name = "Usuario" id = "user" placeholder="Ingrese su usuario">
 		<input class="controls" type="password" name = "Contraseña" id = "password" placeholder="Ingrese su contraseña">
@@ -57,19 +62,35 @@
 
 		<table >
 			<tr>
-				<th>Agencia</th>
-				<th>Lugar</th>
+				<th>Agencia</th>				
 				<th>Telefóno</th>
 				<th>Capacidad</th>
 				<th>Precio</th>
+                <th>Dirección</th>
 			</tr>
 			<tr>
-				<td>dato1</td>
-				<td>dato2</td>
-				<td>dato3</td>
-				<td>dato4</td>
-				<td>dato5</td>
+				<td>MaxRecreaxion</td>          
+                <td>5161103</td>
+                <td>100</td>
+                <td>$500.000</td>
+                <td>Cll 70 N°39-24</td>
 			</tr>
+
+            <tr>
+                <td>MaxiFiestas</td>
+                <td>4444403</td>
+                <td>200</td>
+                <td>900.000</td>   
+                <td>Cll 36 N°65b-35</td>             
+            </tr>
+
+            <tr>
+                <td>CasperRecreación</td>
+                <td>3145271171</td>
+                <td>150</td>
+                <td>700.000</td> 
+                <td>Cll 58 N°45d-85</td>           
+            </tr>
 
 		</table>	
 	</section>
@@ -85,19 +106,20 @@
 		<h3>Agencias Favoritas</h3>
 		<table >
 		<tr>
-			<th>Agencia</th>
-			<th>Lugar</th>
+			<th>Agencia</th>			
 			<th>Telefóno</th>
 			<th>Capacidad</th>
 			<th>Precio</th>
+            <th>Dirección</th>
 		</tr>
 		<tr>
-			<td>dato1</td>
-			<td>dato2</td>
-			<td>dato3</td>
-			<td>dato4</td>
-			<td>dato5</td>
+			<td>MaxRecreaxion</td>			
+			<td>5161103</td>
+			<td>100</td>
+			<td>$500.000</td>
+            <td>Cll 70 N°39-24</td>
 		</tr>
+        
 
 	</table>		
 	</section>
@@ -107,7 +129,12 @@
 	<section id="form-config" class="form-config"> 
         <div class="divAC">
             <button class="btn_atras" id="btn_AtrasC" ><</button>    
-        </div>        
+        </div>    
+
+        <div>
+        	<img src="img/perfil.png" width="350" height="350" align="center">
+        </div>
+
 		<h3>Nombre User</h3>
 		<h3>Correo User</h3>
 

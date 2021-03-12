@@ -1,0 +1,162 @@
+@use "sass:map";
+$margin-padding-default-value: 0;
+$form_margin-top: 50px;
+$form_padding: 30px;
+$div_margin: 10px 0 0 10px;
+$div_top: 0;
+$div_right: 0;
+$default_font: 'calibri';
+
+
+body,
+html {
+    margin: $margin-padding-default-value;
+    padding: $margin-padding-default-value;     
+}
+
+.form-main{
+	margin-top: $form_margin-top;
+	padding: $form_padding;
+}
+
+.form-perfil{
+	margin-top: $form_margin-top;
+	padding: $form_padding;
+}
+
+.form-config{
+	width: 400px;	
+	padding: $form_padding;
+	margin: auto;
+	margin-top: $form_margin-top;
+	border-radius: 4px;
+	font-family: $default_font;
+	
+}
+
+.controls {
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #1f53c5;
+	font-family: $default_font;
+	font-size: 18px;
+	text-align:center;
+}
+
+.form-login a {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+
+h3{
+	line-height: 40px;
+	font-size: 28px;
+	font-family: $default_font;
+}
+
+.botons{
+	width: 180px;	
+	border: solid 1px;
+	padding: 12px;	
+	margin: 16px 0;
+	font-size: 16px;
+	margin-left: 50%;
+  	transform: translateX(-50%);
+}
+
+.table{
+	margin-top:50px;
+	caption-side: bottom;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th{
+	background-color: black;
+	color: white;
+}
+
+td,th{
+	border: 1px solid black; 
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.div1 {
+	margin-left: 15px;
+	margin-top: 60px;
+	position: relative;
+	bottom: 50px;	
+}
+
+.div2 {
+	position: relative;
+	margin-top: 60px;
+	bottom: 10px;	
+}
+
+.btn_atras{
+	width: 30px;
+	height: 30px;	
+	border: solid 1px;
+	padding: 0px;	
+	margin: 16px 0;
+	font-size: 25px;	
+
+}
+
+.botonH{
+	width: 100px;
+	border: solid 1px;
+	padding: 5px;
+}
+
+.divP{
+	position:absolute;
+	top: $div_top;
+	right: $div_right;
+	margin: $div_margin;
+}
+
+.divC{
+	position:absolute;
+	top: $div_top;
+	right:$div_right;
+	margin: $div_margin;	
+}
+
+.divAH{
+	position:absolute;
+	top: $div_top;
+	left: $div_right;
+	margin: $div_margin;
+}
+
+.divAP{
+	position:absolute;
+	top: $div_top;
+	left: $div_right;
+	margin: $div_margin;
+}
+
+.divAC{
+	position:absolute;
+	top: $div_top;
+	left: $div_right;
+	margin: $div_margin;	
+}
+
+.divAR{
+	position:absolute;
+	top: $div_top;
+	left: $div_right;
+	margin: $div_margin;
+}
+
+

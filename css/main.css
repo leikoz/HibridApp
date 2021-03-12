@@ -1,0 +1,149 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.form-main {
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.form-perfil {
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.form-config {
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 4px;
+  font-family: "calibri";
+}
+
+.controls {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: "calibri";
+  font-size: 18px;
+  text-align: center;
+}
+
+.form-login a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+h3 {
+  line-height: 40px;
+  font-size: 28px;
+  font-family: "calibri";
+}
+
+.botons {
+  width: 180px;
+  border: solid 1px;
+  padding: 12px;
+  margin: 16px 0;
+  font-size: 16px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.table {
+  margin-top: 50px;
+  caption-side: bottom;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+td, th {
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.div1 {
+  margin-left: 15px;
+  margin-top: 60px;
+  position: relative;
+  bottom: 50px;
+}
+
+.div2 {
+  position: relative;
+  margin-top: 60px;
+  bottom: 10px;
+}
+
+.btn_atras {
+  width: 30px;
+  height: 30px;
+  border: solid 1px;
+  padding: 0px;
+  margin: 16px 0;
+  font-size: 25px;
+}
+
+.botonH {
+  width: 100px;
+  border: solid 1px;
+  padding: 5px;
+}
+
+.divP {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px 0 0 10px;
+}
+
+.divC {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px 0 0 10px;
+}
+
+.divAH {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px 0 0 10px;
+}
+
+.divAP {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px 0 0 10px;
+}
+
+.divAC {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px 0 0 10px;
+}
+
+.divAR {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px 0 0 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
