@@ -60,12 +60,27 @@ h3 {
   border-radius: 100px;
 }
 
-.table {
-  margin-top: 50px;
-  caption-side: bottom;
-  margin-left: auto;
-  margin-right: auto;
+.TablaAgency{
+  background: rgb(196, 174, 216);
+  width: 100px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: "calibri";
+  color: rgb(58, 58, 58);
+  border-radius: 100px;
+
 }
+/*
+.table{
+  margin-top: 100px;
+  caption-side: bottom;
+  display:block;
+  width: 100px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: blueviolet;
+}
+*/
 
 th {
   background-color: black;
@@ -105,7 +120,10 @@ td, th {
 .botonH {
   width: 100px;
   border: solid 1px;
-  padding: 5px;
+  padding: 8px;
+  margin: 15px;
+  border-radius: 100px;
+  font-size: 15px;
 }
 
 .divP {
