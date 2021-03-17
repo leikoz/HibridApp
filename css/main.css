@@ -9,7 +9,7 @@ html {
   padding: 30px;
 }
 
-.form-perfil {
+.form-perfil {  
   margin-top: 50px;
   padding: 30px;
 }
@@ -24,14 +24,17 @@ html {
 }
 
 .controls {
-  width: 100%;
-  padding: 10px;
-  border-radius: 4px;
+  width: 15%;
+  padding: 8px;
+  border-radius: 100px;
   margin-bottom: 16px;
-  border: 1px solid #1f53c5;
+  border: 4px solid  rgb(141, 97, 211);
   font-family: "calibri";
   font-size: 18px;
   text-align: center;
+  display:block;
+  margin:14px;
+  margin-left: 42%;
 }
 
 .form-login a {
@@ -48,12 +51,13 @@ h3 {
 
 .botons {
   width: 180px;
-  border: solid 1px;
-  padding: 12px;
-  margin: 16px 0;
-  font-size: 16px;
+  border: solid 0.5px;
+  padding: 8px;
+  margin: 10px;
+  font-size: 15px;
   margin-left: 50%;
   transform: translateX(-50%);
+  border-radius: 100px;
 }
 
 .table {
@@ -145,5 +149,14 @@ td, th {
   left: 0;
   margin: 10px 0 0 10px;
 }
+
+.ImgAgency{
+  width:250px;
+  height:250px;
+  display:block;
+  margin:auto;
+}
+
+
 
 /*# sourceMappingURL=main.css.map */
