@@ -5,12 +5,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<script type="text/javascript" src="js/main.js"></script>
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 	<title>Hibrid App</title>
 </head>
 <body>
 
     <!--------- || Login || --------->
-    <!--------- ingresar --------->
+    <!--------- atras --------->
 
 	<section id="form-login" class="form-login">  
 		<div class="div1" >
@@ -29,7 +31,7 @@
 
 	<section id="form-sign-up" class="form-sign-up"> 
         <div class="divAR">
-            <button class="btn_atras" id="btn_AtrasR"></button>    
+            <button class="btn_atras" id="btn_AtrasR" ><img src="img/atras.png" width="50" height="50"></button>    
         </div>        
 		<div class="div2">
 			<img class="ImgAgency" src="img/agency.png" width="250" height="250">
@@ -47,23 +49,23 @@
 
 	<section id=form-main class="form-main"> 
         <div class="divAH">
-            <button class="btn_atras" id="btn_AtrasH" ><</button>    
+            <button class="btn_atras" id="btn_AtrasH"><img src="img/atras.png" width="50" height="50"></button>    
         </div>
         
-        <div align="right" class="divP">
-            <button id="btn_Perfil" ><img src="img/perfil.png" width="50" height="50"></button>
+        <div class="divP">
+            <button id="btn_Perfil" ><img src="img/ImgPerfil.png" width="50" height="50"></button>
         </div>
 
 		<h3>Eventos</h3>
 
-		<button class="botons" id="btn_Cumple">Culturales</button>
-		<button class="botons" id="btn_Comunion">Sociales</button>
-		<button class="botons" id="btn_Bautizo">Comerciales</button>
-		<button class="botons" id="btn_15">Deportivos</button>
-		<button class="botons" id="btn_15">Educativos</button>
-		<button class="botons" id="btn_15">Tecnológicos</button>
-		<button class="botons" id="btn_15">Políticosos</button>
-		<button class="botons" id="btn_15">Científicos</button>
+		<button class="botons" id="btn_Cultural">Culturales</button>
+		<button class="botons" id="btn_Social">Sociales</button>
+		<button class="botons" id="btn_Comercial">Comerciales</button>
+		<button class="botons" id="btn_Deportivo">Deportivos</button>
+		<button class="botons" id="btn_Educativo">Educativos</button>
+		<button class="botons" id="btn_Tecnologico">Tecnológicos</button>
+		<button class="botons" id="btn_Politico">Políticos</button>
+		<button class="botons" id="btn_Cientifico">Científicos</button>
 
 		<table class="TablaAgency">
 			<tr>
@@ -104,12 +106,12 @@
 
 	<section id="form-perfil" class="form-perfil">
         <div class="divAP">
-            <button class="btn_atras" id="btn_AtrasP" ></button>    
-        </div> 
+            <button class="btn_atras" id="btn_AtrasP"><img src="img/atras.png" width="50" height="50"></button>    
+        </div>
         
-        <div class="divC" ><button class="btn_config" id="btn_Config" ><img src="img/Config.png" width="50" height="50"></button></div>
+        <div class="divC" ><button class="btn_config" id="btn_Config" ><img src="img/configuración.png" width="50" height="50"></button></div>
 		<h3>Agencias Favoritas</h3>
-		<table >
+		<table class="TablaAgency">
 		<tr>
 			<th>Agencia</th>			
 			<th>Telefóno</th>
@@ -129,18 +131,16 @@
 	</table>		
 	</section>
 
-    <!--------- cambiar contraseña --------->
-
 
     <!--------- || Vista Configuración Usuario || --------->
 
 	<section id="form-config" class="form-config"> 
         <div class="divAC">
-            <button class="btn_atras" id="btn_AtrasC" ></button>    
+            <button class="btn_atras" id="btn_AtrasC"><img src="img/atras.png" width="50" height="50"></button>    
         </div>    
 
         <div>
-        	<img src="img/perfil.png" width="350" height="350">
+        	<img src="img/ImgPerfil1.png" width="350" height="350">
         </div>
 
 		<h3>Nombre User</h3>
